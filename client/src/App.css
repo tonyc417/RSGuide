@@ -1,41 +1,32 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1f1f1f;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/oldschool.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+
+.nav-links, li{
+  color: white;
+  min-height: 50px;
+  max-height: 50px;
+  font-size: 1rem;
+  display: flex;
+  list-style: none;
+  position: relative;
+  padding: 0px 50px;
+  cursor: pointer;
+}
+
 
 @keyframes App-logo-spin {
   from {

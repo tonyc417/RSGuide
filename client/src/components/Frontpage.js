@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
     Collapse,
     Navbar,
@@ -10,18 +10,27 @@ import {
     Col,
     Button
 } from 'reactstrap';
-import oldSchool from '../images/oldSchool.png';
 
-const displayFront = () => {
-    return(
-        <section className="hero-image">
-            <div>
-                <Navbar dark expand='sm'>
+
+class Front extends Component {
+    render() {
+        return(
+            <section className='hero-image'>
+                <div>
+                {/* <Navbar dark expand='sm'>
                     <NavbarBrand>RuneGuide</NavbarBrand>
-                </Navbar>
-            </div>
-        </section>
-    )
-}
+                </Navbar> */}
+                <ul className='nav-links'>
+                    <li>News</li>
+                    <li>Grand Exchange</li>
+                    <li>Guides</li>
+                </ul>
+                </div>
+            </section>
+        )
 
-export default displayFront;
+    }
+};
+
+
+export default Front;
