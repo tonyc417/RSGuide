@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/oldschool.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
