@@ -1,0 +1,35 @@
+body, html {
+  height: 100%;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.nav {
+  background: rgba(108,117,125, .70);
+  padding: 10px;
+}
+
+.grey-bg {
+  background: rgba(108,117,125, .70);
+}
+
+.nav a:hover {
+color: #000;
+}
+
+.nav a {
+color: white;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+font-size: 1.2rem;
+transition: opacity 150ms ease-in-out;
+}
+
+#hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/oldschool.png");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
