@@ -24,6 +24,14 @@ header {
   position: relative;
 }
 
+.customCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  text-align: center;
+  background-color: grey;
+}
+
 nav a:hover {
     color: rgb(255, 0, 0);
 }
