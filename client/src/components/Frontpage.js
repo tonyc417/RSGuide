@@ -1,17 +1,5 @@
 import React, { Component } from 'react';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Container,
-    Row,
-    Col,
-    Button
-} from 'reactstrap';
+
 
 
 class Front extends Component {
@@ -26,9 +14,9 @@ class Front extends Component {
                     <nav>
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="/guides">About</a></li>
-                            <li><a href="/news">Blog</a></li>
-                            <li><a href="/ge">Contact</a></li>
+                            <li><a href="/guides">Guides</a></li>
+                            <li><a href="/ge">Money Making</a></li>
+                            <li><a href="/news">News</a></li>
                         </ul>
                     </nav>
                     <label for="nav-toggle" class="nav-toggle-label">

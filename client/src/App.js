@@ -1,15 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import FrontPage from './components/Frontpage';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <FrontPage />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return(
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/" exact component={FrontPage} />
+          </Switch>
+        </div>
+      </Router>
+    )
+  }
 }
 
 export default App;
