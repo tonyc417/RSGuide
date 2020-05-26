@@ -17,8 +17,8 @@ const Guide = () => {
             <Card className="customCard">
                 <CardImg className="mobImg" width="20%" src={CombatIcon} alt="Combat Icon" />
                 <CardBody>
-                    <CardTitle>Combat</CardTitle>
-                    <Button>Button</Button>
+                    <CardTitle className="h4">Combat</CardTitle>
+                    <Button>Go</Button>
                 </CardBody>
             </Card>
             </div>
@@ -26,7 +26,7 @@ const Guide = () => {
             <Card className="customCard">
                 <CardImg  className="mobImg" width="20%" src={Ranged} alt="Ranged Icon" />
                 <CardBody>
-                    <CardTitle>Ranged</CardTitle>
+                    <CardTitle className="h4">Ranged</CardTitle>
                     <Button>Go</Button>
                 </CardBody>
             </Card>
@@ -35,8 +35,8 @@ const Guide = () => {
             <Card className="customCard">
                 <CardImg className="mobImg" width="20%" height="30%" src={Prayer} alt="Prayer Icon" />
                 <CardBody>
-                    <CardTitle>Prayer</CardTitle>
-                    <Button>Button</Button>
+                    <CardTitle className="h4">Prayer</CardTitle>
+                    <Button>Go</Button>
                 </CardBody>
             </Card>
             </div>
@@ -44,8 +44,8 @@ const Guide = () => {
             <Card className="customCard">
                 <CardImg className="mobImg" width="20%" src={Magic} alt="Magic Icon" />
                 <CardBody>
-                    <CardTitle>Magic</CardTitle>
-                    <Button>Button</Button>
+                    <CardTitle className="h4">Magic</CardTitle>
+                    <Button>Go</Button>
                 </CardBody>
             </Card>
             </div>
@@ -53,8 +53,8 @@ const Guide = () => {
             <Card className="customCard">
                 <CardImg  className="mobImg" width="20%" src={Woodcutting} alt="Woodcutting Icon" />
                 <CardBody>
-                    <CardTitle>Woodcutting</CardTitle>
-                    <Button>Button</Button>
+                    <CardTitle className="h4">Woodcutting</CardTitle>
+                    <Button>Go</Button>
                 </CardBody>
             </Card>
             </div>
