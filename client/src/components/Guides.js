@@ -13,7 +13,7 @@ import Woodcutting from '../images/Woodcutting.png';
 const Guide = () => {
     return (
         <Container>
-        <Row xs="2" sm="2">
+        <Row>
             <Col>
             <Card className="customCard">
                 <CardImg width="4%" src={CombatIcon} alt="Card image cap" />
