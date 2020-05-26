@@ -1,0 +1,20 @@
+import React from 'react';
+import { Card, CardText, CardBody,
+    CardTitle, CardSubtitle } from 'reactstrap';
+
+const newsFeed = ({title, img, author, description}) => {
+    return(
+        <div>
+            <Card className="mt-2 customCard">
+                <img src={img} alt="An esports icon" width="250px" />
+                <CardBody>
+                    <CardTitle className="text-white">{title}</CardTitle>
+                    <CardSubtitle>Published by: {author} </CardSubtitle>
+                    <CardText className="newsText">Description: {description}</CardText>
+                </CardBody>
+            </Card>
+        </div>
+    )
+};
+
+export default newsFeed;

@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import Newstemp from './Newstemplate';
 import {Container, Row, Col} from 'reactstrap';
 
 const Osrsnews = () => {
@@ -23,6 +24,15 @@ const Osrsnews = () => {
         <div className="newsHeading">
             <h1>Keep up to date with the latest news!</h1>
         </div>
+        {story.map(stories => (
+            <Newstemp 
+            title={stories.title}
+            author={stories.author}
+            description={stories.description}
+            key={stories.publishedAt}
+            img={stories.urlToImage} 
+            />
+        ))};
         </Container>
     )
 };
