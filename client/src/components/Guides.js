@@ -12,55 +12,53 @@ import Woodcutting from '../images/Woodcutting.png';
 
 const Guide = () => {
     return (
-        <Container>
-        <Row>
-            <Col>
+        <div className="row">
+            <div className="column">
             <Card className="customCard">
-                <CardImg width="4%" src={CombatIcon} alt="Card image cap" />
+                <CardImg className="mobImg" width="20%" src={CombatIcon} alt="Combat Icon" />
                 <CardBody>
                     <CardTitle>Combat</CardTitle>
                     <Button>Button</Button>
                 </CardBody>
             </Card>
-            </Col>
-            <Col>
+            </div>
+            <div className="column">
             <Card className="customCard">
-                <CardImg  width="4%" src={Ranged} alt="Card image cap" />
+                <CardImg  className="mobImg" width="20%" src={Ranged} alt="Ranged Icon" />
                 <CardBody>
                     <CardTitle>Ranged</CardTitle>
                     <Button>Go</Button>
                 </CardBody>
             </Card>
-            </Col>
-            <Col>
+            </div>
+            <div className="column">
             <Card className="customCard">
-                <CardImg  width="4%" src={Prayer} alt="Card image cap" />
+                <CardImg className="mobImg" width="20%" height="30%" src={Prayer} alt="Prayer Icon" />
                 <CardBody>
                     <CardTitle>Prayer</CardTitle>
                     <Button>Button</Button>
                 </CardBody>
             </Card>
-            </Col>
-            <Col>
+            </div>
+            <div className="column">
             <Card className="customCard">
-                <CardImg  width="4%" src={Magic} alt="Card image cap" />
+                <CardImg className="mobImg" width="20%" src={Magic} alt="Magic Icon" />
                 <CardBody>
                     <CardTitle>Magic</CardTitle>
                     <Button>Button</Button>
                 </CardBody>
             </Card>
-            </Col>
-            <Col>
+            </div>
+            <div className="column">
             <Card className="customCard">
-                <CardImg  width="4%" src={Woodcutting} alt="Card image cap" />
+                <CardImg  className="mobImg" width="20%" src={Woodcutting} alt="Woodcutting Icon" />
                 <CardBody>
                     <CardTitle>Woodcutting</CardTitle>
                     <Button>Button</Button>
                 </CardBody>
             </Card>
-            </Col>
-            </Row>
-        </Container>
+            </div>
+        </div>
     )
 }
 

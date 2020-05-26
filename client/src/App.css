@@ -24,12 +24,33 @@ header {
   position: relative;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.newsHeading {
+    display: inline-flex;
+    margin-top: 70px;
+}
+
 .customCard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
+  font-size: 30px;
   text-align: center;
   background-color: grey;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 100px;
+  padding: 40px;
 }
 
 nav a:hover {
@@ -173,4 +194,34 @@ nav a {
   }
 }
 
+
+/* For phones */
+
+@media only screen and (min-width: 375px) {
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/oldschool.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+    
+.customCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 5px;
+  background-color: grey;
+}
+
+.mobImg {
+    width: 40px;
+}
+
+}
 
